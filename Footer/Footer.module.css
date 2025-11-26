@@ -1,0 +1,65 @@
+.footerparentBox{
+    width: 100%;
+    height: 350px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.BOX1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    
+}
+.logoMaterial{
+width: 20%;
+height: 100%;
+background-color: blue;
+
+}
+
+.email{
+    width: 20%;
+    height: 100%;
+    background-color: green;
+   
+}
+
+.address{
+    width: 40%;
+    height: 100%;
+    background-color: aqua;
+    
+}
+
+.phoneNumber{
+    width: 20%;
+    height: 100%;
+    background-color: gray;
+   
+}
+
+.BOX2{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blueviolet;
+}
+
+.home{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.BOX3{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}

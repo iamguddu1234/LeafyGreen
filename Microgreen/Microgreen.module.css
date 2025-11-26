@@ -1,0 +1,36 @@
+.MicrogreenParent{
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+
+}
+
+.microGeenImage {
+width: 35%;
+height: 100%;
+background-color: yellowgreen;
+}
+
+.microDetails{
+    width: 65%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.whatSMicrogress{
+    width: 100%;
+    height: 33%;
+    background-color: brown;
+}
+
+.types{
+    width: 100%;
+    height: 33%;
+    background-color: wheat; 
+}
+
+.benifits{
+    width: 100%;
+    height: 33%;
+    background-color: chocolate; 
+}
