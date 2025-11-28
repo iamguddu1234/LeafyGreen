@@ -40,7 +40,7 @@ text-align: start;
     height: 500px;
     /* border: 1px solid green; */
     background-color: aqua;
-    
+    object-fit: cover;
     border-radius: 5px;
     
 }

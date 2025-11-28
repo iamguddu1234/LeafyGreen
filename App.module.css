@@ -6,7 +6,6 @@ html {
 
 .mainBlock{
     width: 99%;
-    height: 100vh;
     border: 5px solid red ;
     display: flex;
     justify-content:center ;
@@ -14,12 +13,70 @@ html {
 }
 
 .subBlock{
+  padding-top: 60px;
     border: 5px solid  blue ;
     width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+
    
 
 }
+
+/* Header.module.css */
+
+/* General styles for the header */
+.header {
+  background-color: #333;
+  padding: 1px 1px;
+  position: fixed;       /* 🔥 Makes navbar fixed */
+  top: 0;                /* Stick to top */
+  left: 0;
+  width: 100%;           /* Full width */
+  z-index: 999; 
+  }
+  
+  /* Flexbox container for navbar */
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; /* Space out menu items and logo */
+    align-items: center;
+    max-width: 1200px; /* Maximum width of the header */
+    margin: 0 auto; /* Center the header */
+  }
+  
+  /* Menu items on the left */
+  .menuItems ul {
+    display: flex; /* Make the list horizontal */
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove bullet points */
+  }
+  
+  .menuItems li {
+    margin: 0 15px; /* Spacing between each menu item */
+  }
+  
+  .menuItems a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .menuItems a:hover {
+    background-color: #f5a623; /* Hover background */
+    color: #333; /* Change text color on hover */
+    border-radius: 4px;
+  }
+  
+  /* Logo on the right */
+  .logo img {
+    width: 70px; /* Adjust logo width */
+    height: auto;
+  }
+  

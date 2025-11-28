@@ -1,11 +1,12 @@
 import classes from "./Microgreen.module.css";
+import microgreenImg from './micro.jpg';
 
 function Microgreen() {
   return (
     <div className={classes.MicrogreenParent}>
 
     
-<div className={classes.microGeenImage}></div>
+<img className={classes.microGeenImage} src={microgreenImg}/>
 
 
         <div className={classes.microDetails}>

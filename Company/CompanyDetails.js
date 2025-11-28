@@ -1,13 +1,13 @@
 import classes from "./CompanyDetails.module.css"
+import photo from './first.jpg';
+import photo2 from './second.png';
+
 
 function CompanyDetails() {
     return (
       <div className={classes.parentBlock}>
 
-<div className={classes.imageData}>
-
-</div>
-      
+<img className={classes.imageData} src = {photo2}/>
 <div className={classes.detailsBlock}>
 
 <div className={classes.title}>This is the Fucking title of the leafy green</div>

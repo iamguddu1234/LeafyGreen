@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Faq.module.css";
+import faqImage from "./faq.jpg";
 
 function Faq() {
   // State to track which question is clicked
@@ -39,9 +40,9 @@ function Faq() {
         ))}
       </div>
 
-      <div className={classes.imageBlock}>
+      <img className={classes.imageBlock} src = {faqImage}/>
         {/* Your image block content */}
-      </div>
+    
     </div>
   );
 }
