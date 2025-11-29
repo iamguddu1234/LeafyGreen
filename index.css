@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  --themColor: #2F9C07;
+  --backgroundColor: #EDFEE7;
+  --cardColor: #4e4e4e;
+  --borderColor: #00ff00;
+}

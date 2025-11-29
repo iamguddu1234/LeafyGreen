@@ -1,28 +1,82 @@
-
 import classes from "./Product.module.css";
 
 function Product() {
   const items = [
-    { title: "Product 1", img: "https://picsum.photos/300/200?random=1", desc: "This is dummy description for product 1" },
-    { title: "Product 2", img: "https://picsum.photos/300/200?random=2", desc: "This is dummy description for product 2" },
-    { title: "Product 3", img: "https://picsum.photos/300/200?random=3", desc: "This is dummy description for product 3" },
-    { title: "Product 4", img: "https://picsum.photos/300/200?random=4", desc: "This is dummy description for product 4" },
-    { title: "Product 5", img: "https://picsum.photos/300/200?random=5", desc: "This is dummy description for product 5" },
-    { title: "Product 6", img: "httpsum.photos/300/200?random=6", desc: "This is dummy description for product 6" },
-    { title: "Product 7", img: "https://picsum.photos/300/200?random=7", desc: "This is dummy description for product 7" },
-    { title: "Product 8", img: "https://picsum.photos/300/200?random=8", desc: "This is dummy description for product 8" },
-    { title: "Product 9", img: "https://picsum.photos/300/200?random=9", desc: "This is dummy description for product 9" },
-    { title: "Product 10", img: "https://picsum.photos/300/200?random=10", desc: "This is dummy description for product 10" },
-    { title: "Product 11", img: "https://picsum.photos/300/200?random=11", desc: "This is dummy description for product 11" },
-    { title: "Product 12", img: "https://picsum.photos/300/200?random=12", desc: "This is dummy description for product 12" },
+    {
+      title: "Broccoli",
+      img: "https://picsum.photos/300/200?random=1",
+      desc: "Rich in antioxidants and sulforaphane, these broccoli microgreens support immunity, detoxification, and overall wellness. Perfect for salads, sandwiches, smoothies, and garnishing meals.",
+    },
+    {
+      title: "Radish",
+      img: "https://picsum.photos/300/200?random=2",
+      desc: "Spicy and crunchy, radish microgreens add flavor and nutrition to your dishes. Packed with vitamins, minerals, and antioxidants for a healthy, tasty boost.",
+    },
+    {
+      title: "Sunflower",
+      img: "https://picsum.photos/300/200?random=3",
+      desc: "Nutty and crisp, sunflower microgreens are high in protein and essential nutrients. Ideal for sandwiches, salads, and healthy snacking.",
+    },
+    {
+      title: "Pea Shoot",
+      img: "https://picsum.photos/300/200?random=4",
+      desc: "Sweet, tender pea shoots are nutrient-rich and versatile. Excellent in stir-fries, salads, and wraps, providing natural vitamins, minerals, and antioxidants.",
+    },
+    {
+      title: "Basil",
+      img: "https://picsum.photos/300/200?random=5",
+      desc: "romatic and flavorful, basil microgreens enhance taste while offering antioxidants and nutrients. Perfect for garnishing dishes, sandwiches, or adding to smoothies.",
+    },
+    {
+      title: "Coriander",
+      img: "httpsum.photos/300/200?random=6",
+      desc: "Fresh and fragrant, coriander microgreens add flavor and essential vitamins to meals. Great for salads, soups, and garnishing your favorite dishes.",
+    },
+    {
+      title: "Mustard",
+      img: "https://picsum.photos/300/200?random=7",
+      desc: "Bold, spicy mustard microgreens are packed with antioxidants, vitamins, and minerals. Ideal for sandwiches, salads, and healthy culinary creations.",
+    },
+    {
+      title: "Kale",
+      img: "https://picsum.photos/300/200?random=8",
+      desc: "Superfood kale microgreens are loaded with vitamins, minerals, and antioxidants. Perfect for smoothies, salads, or adding nutrient density to everyday meals.",
+    },
+    {
+      title: "Spinach",
+      img: "https://picsum.photos/300/200?random=9",
+      desc: "Tender spinach microgreens are mild and nutritious, rich in iron, vitamins, and antioxidants. Great for salads, soups, and green smoothies.",
+    },
+    {
+      title: "Fenugreek",
+      img: "https://picsum.photos/300/200?random=10",
+      desc: "Slightly bitter fenugreek microgreens aid digestion and are rich in nutrients. Ideal for culinary dishes, salads, or garnishing your meals.",
+    },
+    {
+      title: "Beetroot",
+      img: "https://picsum.photos/300/200?random=11",
+      desc: "Vibrant beetroot microgreens are packed with antioxidants and nutrients. Add color, taste, and nutrition to salads, wraps, or smoothies.",
+    },
+    {
+      title: "Amaranth",
+      img: "https://picsum.photos/300/200?random=12",
+      desc: "Bright and nutritious, amaranth microgreens are rich in vitamins and antioxidants. Perfect for adding color, flavor, and health benefits to meals.",
+    },
   ];
 
   return (
     <div className={classes.ProductParentBox}>
+
+<div className={classes.prTitle}>Products</div>
+
       <div className={classes.ProductWrapper}>
         {items.map((item, index) => (
           <div className={classes.ProductGroup} key={index}>
-            <img src={item.img} alt={item.title} className={classes.ProductImage} />
+            <img
+              src={item.img}
+              alt={item.title}
+              className={classes.ProductImage}
+            />
 
             <div className={classes.ProductTitle}>{item.title}</div>
             <div className={classes.ProductDescription}>{item.desc}</div>
@@ -35,14 +89,11 @@ function Product() {
 
 export default Product;
 
-
-
 // import classes from "./Product.module.css"
 
 // function Product() {
 //     return (
 //       <div className={classes.ProductParentBox}>
-
 
 // <div className={classes.ProductGroup}>
 
@@ -55,5 +106,5 @@ export default Product;
 //       </div>
 //     );
 //   }
-  
+
 //   export default Product;

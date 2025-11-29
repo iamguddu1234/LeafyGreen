@@ -1,7 +1,12 @@
 .MicrogreenParent{
+    margin-top: 100px;
     width: 100%;
-    height: 500px;
-    background-color: cadetblue;
+
+}
+
+.MicrogreenSubParent{
+    height: 470px;
+
     display: flex;
 
 }
@@ -9,30 +14,70 @@
 .microGeenImage {
 width: 35%;
 height: 100%;
-background-color: yellowgreen;
 object-fit: cover;
+border-radius: 10px;
 }
 
 .microDetails{
+    padding-left: 20px;
     width: 65%;
     height: 100%;
-    background-color: burlywood;
 }
 
 .whatSMicrogress{
     width: 100%;
-    height: 33%;
-    background-color: brown;
+    height: 30%;
+
+}
+
+.QUE{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    
+}
+
+.ANS{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .types{
     width: 100%;
-    height: 33%;
-    background-color: wheat; 
+    height: 36%;
+}
+.ty1{
+    
+    font-size: 25px;
+    font-weight: 700;
 }
 
+.tyd1{
+
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
 .benifits{
     width: 100%;
     height: 33%;
-    background-color: chocolate; 
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+}
+
+.bf1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.bf2{
+    font-weight: 500;
+    padding-top: 8px;
+    font-size: 18px;
+    line-height: 20px;
+
 }
